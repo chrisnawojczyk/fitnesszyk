@@ -1,0 +1,56 @@
+.main-title a, .main-title a:hover, .main-title a:visited {
+padding-right:10px;
+font-weight:500
+}
+.site-description{
+font-size:17px;
+padding-right:10px;
+color:#d34300
+}
+.main-navigation .main-nav ul li a {
+padding-left:20px;
+padding-right:20px;
+line-height:60px;
+font-size:18px;
+font-weight:inherit;
+text-transform:uppercase
+}
+.page-id-268 th, .page-id-98 th, .page-header-image, .page-header-image-single{
+ display: none;
+}
+@media (max-width: 420px){
+.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header {
+    padding: 10px;
+}
+.wp-block-media-text .wp-block-media-text__content {
+word-wrap: break-word;
+grid-area: media-text-content;
+padding: 0 0% 0 0%;
+}
+p{font-size:17px}
+}
+h4, h5, h6 {
+text-transform:uppercase;
+font-weight:400;
+color:#038284
+}
+h4{font-size:17px}
+h5{font-size:16px}
+h6{font-size:15px}
+
+.author_bio_section{
+background: none repeat scroll 0 0 #F5F5F5;
+padding: 15px;
+border: 1px solid #ccc;
+margin-bottom:30px
+}
+.author_name{
+font-size:16px;
+font-weight: bold;
+}
+.author_details img {
+border: 1px solid #D8D8D8;
+border-radius: 50%;
+float: left;
+margin: 0 10px 10px 0;
+}
